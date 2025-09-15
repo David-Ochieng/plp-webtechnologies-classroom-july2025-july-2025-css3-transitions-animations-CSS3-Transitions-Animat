@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CSS & JavaScript Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Web Experience</h1>
+            <p>Combining CSS animations with JavaScript functionality</p>
+        </header>
+
+        <div class="controls">
+            <button id="theme-toggle" class="btn">Toggle Dark Mode</button>
+            <button id="reset-btn" class="btn">Reset Animations</button>
+        </div>
+
+        <div class="card-grid">
+            <div class="card" data-card="1">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h2>Card 1</h2>
+                        <p>Click to flip</p>
+                    </div>
+                    <div class="card-back">
+                        <h2>Back Side</h2>
+                        <p>JavaScript powered flip</p>
+                        <button class="action-btn">Click Me!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-card="2">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h2>Card 2</h2>
+                        <p>Click to flip</p>
+                    </div>
+                    <div class="card-back">
+                        <h2>Back Side</h2>
+                        <p>CSS animation with JS trigger</p>
+                        <button class="action-btn">Click Me!</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" data-card="3">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <h2>Card 3</h2>
+                        <p>Click to flip</p>
+                    </div>
+                    <div class="card-back">
+                        <h2>Back Side</h2>
+                        <p>Interactive elements</p>
+                        <button class="action-btn">Click Me!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="animation-demo">
+            <h2>Animation Playground</h2>
+            <div class="animation-box" id="animation-box">
+                <div class="box"></div>
+            </div>
+            <div class="animation-controls">
+                <button class="btn" data-animation="bounce">Bounce</button>
+                <button class="btn" data-animation="rotate">Rotate</button>
+                <button class="btn" data-animation="shake">Shake</button>
+                <button class="btn" data-animation="color-change">Color Change</button>
+            </div>
+        </div>
+
+        <div class="counter-section">
+            <h2>Function Demonstration</h2>
+            <div class="counter">
+                <button id="decrement" class="btn">-</button>
+                <span id="count-value">0</span>
+                <button id="increment" class="btn">+</button>
+            </div>
+            <p id="counter-message">Start counting!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
